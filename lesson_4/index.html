@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>CSS positioning</title>
+</head>
+<body>
+    <h1>Aplly relative position</h1>
+    <section class="relative">
+        <h2>First element</h2>
+        <p>I am moved left to 50px from my static position</p>
+        <p>My sizes are following:</p>
+        <code>{ width: 500px; height: 250px;}</code>
+        <br>
+        <br>
+        <p>My border-radius:</p>
+        <code>{ border-radius: 10px; }</code>
+    </section>
+    <section class="static">
+        <h2>Second element</h2>
+        <p>I am with static position by default</p>
+        <p>My sizes are following:</p>
+        <code>{ width: 600px; height: 250px; }</code>
+        <br>
+        <br>
+        <p>My border-radius:</p>
+        <code>{ border-radius: 20px; }</code>
+    </section>
+    <h1>Aplly absolute position</h1>
+    <section>
+        <h2>I am parent with relative position</h2>
+        <p>My sizes are following:</p>
+        <code>{ width: 1000px; height: 200px;}</code>
+        <section class="absolute">
+            <h3>I am child element with absolute positioning, top and right 10px</h3>
+            <p>My sizes are following:</p>
+            <code>{ width: 400px; height: 150px; }</code>
+        </section>
+    </section>
+</body>
+</html>

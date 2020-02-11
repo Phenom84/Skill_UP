@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+section {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    border: 3px solid green;
+    font-size: 0.7em;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    width: 500px;
+    height: 250px;
+    border: 3px solid rgb(255, 100, 0);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.static {
+    width: 600px;
+    height: 250px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.absolute {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    top: 10px;
+    right: 10px;
+    border: 2px solid red;
+    font-size: 0.95em;
+}
