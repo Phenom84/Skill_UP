@@ -1,0 +1,28 @@
+div { 
+  display: block;
+  box-sizing: border-box;
+  margin: 0 14px 8px 0;
+}
+
+.block {
+  width: 192px;
+  background: cadetblue;
+  border: 2px solid blue;
+  padding: 14px;
+}
+
+.inline {
+  display: inline;
+  background: yellow;
+  border: 2px solid red;
+  padding: 14px;
+  line-height:50px; 
+}
+
+.inline-block{
+  width: 192px;
+  display: inline-block;
+  background: lightgreen;
+  border: 2px solid green; 
+  padding: 14px;
+}
