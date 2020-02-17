@@ -1,0 +1,48 @@
+form > fieldset {
+    width: 400px;
+    background-color: rgb(240, 240, 240);
+    border: 3px solid rgb(105, 105, 105);
+}
+
+input,
+label,
+select,
+textarea,
+button {
+    display: block;
+    border: none;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+button {
+    background-color: rgb(78, 78, 78);
+    width: 60px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;
+}
+
+.main_form > div {
+    margin-top: 20px;
+}
+
+.checkbox > label {
+    margin: 5px 0px 0px 8px;
+    cursor: pointer;
+}
+
+.float_left {
+    float: left;
+    clear: both;
+}
+
+.checkbox {
+    border: none;
+    margin-top: 20px;
+    padding: 0;
+}
