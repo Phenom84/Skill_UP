@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Cerneaga Denis">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Delivery form</title>
+</head>
+
+<body>
+    <form action="http://www.mocky.io/v2/5e482ff83000007400294a9e" method="get">
+        <fieldset class="main_form">
+            <div>
+                <label for="firstname">Your Name</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+            <div>
+                <label for="secondname">Your Surname</label>
+                <input type="text" name="secondname" id="secondname" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <fieldset class="checkbox">
+                <legend>Сhoose your gift bonus:</legend>
+                <label for="action_1">Lottery ticket
+                    <input class="float_left" type="checkbox" name="action_1" id="action_1" value="lottery">
+                </label>
+                <label for="action_2">Pizza
+                    <input class="float_left" type="checkbox" name="action_2" id="action_2" value="pizza">
+                </label>
+                <label for="action_3">I don't need anything
+                    <input class="float_left" type="checkbox" name="action_3" id="action_3" value="nothing">
+                </label>
+            </fieldset>
+            <div>
+                <label for="town">Delivery town:</label>
+                <select name="town" id="town" required>
+                    <option value="">Please select</option>
+                    <option value="chi">Chisinau</option>
+                    <option value="bal">Balti</option>
+                    <option value="sor">Soroki</option>
+                    <option value="dro">Drochia</option>
+                </select>
+            </div>
+            <div>
+                <label for="adress">Enter your adress here:</label>
+                <textarea name="adress" id="adress" required>
+                </textarea>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
