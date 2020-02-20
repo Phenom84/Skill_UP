@@ -1,0 +1,60 @@
+body {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+main {width: 99.99%;}
+
+section {
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px solid white;
+    width: 100%;
+}
+
+code {
+    text-align: left;;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.red {
+    background-color: #893F3E;
+}
+
+.green {
+    background-color: #568D4A;
+}
+
+.blue {
+    background-color: #274DB0;
+}
+
+@media only screen and (min-width: 767px) {
+    .red{
+        width: 100%;
+    }
+    .green,
+    .blue {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .red,
+    .green,
+    .blue {
+        width: 33.33%;
+    }
+}
