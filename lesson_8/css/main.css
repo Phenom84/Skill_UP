@@ -20,7 +20,7 @@ section {
 code {
   text-align: left; }
 
-.clearfix::after {
+.clearfix:after {
   content: "";
   clear: both;
   display: table; }

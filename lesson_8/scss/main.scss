@@ -23,38 +23,29 @@ code {
     text-align: left;;
 }
 
-.clearfix::after {
+.clearfix {
+    &:after{
     content: "";
     clear: both;
     display: table;
   }
-
-.red {
-    background-color: #893F3E;
 }
 
-.green {
-    background-color: #568D4A;
-}
+.red {background-color: #893F3E;}
 
-.blue {
-    background-color: #274DB0;
-}
+.green {background-color: #568D4A;}
+
+.blue {background-color: #274DB0;}
 
 @media only screen and (min-width: 767px) {
-    .red{
-        width: 100%;
-    }
+    .red{width: 100%;}
+
     .green,
-    .blue {
-        width: 50%;
-    }
+    .blue {width: 50%;}
 }
 
 @media only screen and (min-width: 1023px) {
     .red,
     .green,
-    .blue {
-        width: 33.33%;
-    }
+    .blue {width: 33.33%;}
 }
