@@ -1,0 +1,39 @@
+.bg-1,
+.bg-2,
+.bg-3,
+.bg-4 {
+  height: 100%; }
+
+.bg-1 {
+  background-color: #FBA342; }
+  .bg-1:before {
+    content: "";
+    padding-top: 20%;
+    float: left; }
+
+.bg-2 {
+  background-color: #D8EA34; }
+  .bg-2:before {
+    content: "";
+    padding-top: 40%;
+    float: left; }
+
+.bg-3 {
+  background-color: #4988CB; }
+  .bg-3:before {
+    content: "";
+    padding-top: 80%;
+    float: left; }
+  @media only screen and (min-width: 577px) and (max-width: 991px) {
+    .bg-3:before {
+      padding-top: 20%; } }
+
+.bg-4 {
+  background-color: #E1E1E1; }
+  .bg-4:before {
+    content: "";
+    padding-top: 68%;
+    float: left; }
+  @media only screen and (min-width: 577px) and (max-width: 991px) {
+    .bg-4:before {
+      padding-top: 40%; } }
