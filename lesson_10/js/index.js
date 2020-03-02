@@ -13,11 +13,16 @@ console.log('undef variable is typeof: ' + typeof undef);
 console.log('empty variable is typeof: ' + typeof empty);
 console.log('int variable is typeof: ' + typeof int);
 console.log('sym variable is typeof: ' + typeof sym);
-document.write('Result of IF/ELSE operator: ');
+var result = '';
 if (myCurrentEge >= 25) {
-    document.write('<mark>I am over 25 years old</mark>');
+    result = '<mark>I am over 25 years old</mark>';
 } else {
-    document.write('<mark>I am under 25</mark>');
+    result = '<mark>I am under 25</mark>';
 }
-document.write('<br/>Result of ternary operator: ');
-(myCurrentEge >= 25) ? document.write('<mark>I am over 25 years old</mark>') : document.write('<mark>I am under 25</mark>');
+document.write('Result of IF/ELSE operator: ' + result);
+
+document.write('<br/>Result of ternary operator: ' + 
+((myCurrentEge >= 25)
+? '<mark>I am over 25 years old</mark>'
+: '<mark>I am under 25</mark>'
+));
