@@ -6,3 +6,6 @@ arr.splice(3, 1);
 var numberArr = arr.filter(value => typeof value === 'number');
 var sqareArr = numberArr.map(value => value * value);
 console.log(Math.max.apply(null, sqareArr));
+const str = 'hjk';
+str = 'uuu';
+console.log(str);

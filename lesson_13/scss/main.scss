@@ -1,0 +1,33 @@
+sup,
+sub { font-size: 10px;}
+.coefficient {
+    width: 30px;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 6px;
+    text-align: right;
+}
+
+.formula {
+    width: 190px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center_block {
+    box-sizing: border-box;
+    display: block;
+    margin: 15px auto;
+}
+
+#result{
+    display: none;
+}
+
+.formula{
+    font-style: italic;
+}
