@@ -20,7 +20,7 @@ function userPromptMathPow() {
     let x = promptNumber("Enter the number you want to raise to the power:");
     let n = promptNumber("Enter the degree to which you want to raise the entered number:");
     let result = Math.pow(x, n);
-    if (isNaN(result)){
+    if (isNaN(result)) {
         result = " ERROR! You have probably tried to raise a negative number to an integer power.";
     }
     let resultString = "Result of x = " + x + " in power of n = " + n + " equals " + result;
