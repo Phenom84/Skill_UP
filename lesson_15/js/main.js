@@ -3,5 +3,5 @@ function showResult(string) {
         document.getElementById("resultSting").innerHTML = string;
     }
 }
-secondButton.onclick = function () { showResult('You clicked Second button')};
-thirdButton.addEventListener("click", function () { showResult('You clicked Third button')});
+secondButton.onclick = function () { showResult('You clicked Second button');};
+thirdButton.addEventListener("click", function () { showResult('You clicked Third button');});
