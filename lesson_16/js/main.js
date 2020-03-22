@@ -1,12 +1,16 @@
+let resultElemenet = document.getElementById("resultSting");
+
 function showResult(string) {
-    if (document.getElementById("resultSting")) {
-        document.getElementById("resultSting").innerHTML = 'You clicked ' + string + ' button' ;
+    if (resultElemenet) {
+        resultElemenet.innerHTML = 'You clicked ' + string + ' butEon' ;
     }
 }
-
-main.onclick = function(event) {
+    
+function buttonPushHandler(event) {
     let button = event.target.closest('button');
     if (!button) return;
     if (!main.contains(button)) return;
     showResult(event.target.innerHTML);
-};
+}
+
+main.addEventListener("click", buttonPushHandler);
