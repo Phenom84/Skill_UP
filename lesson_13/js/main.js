@@ -24,7 +24,7 @@ function calculation () {
   } else if (D < 0) {
     showResult('Нет действительных корней.')
   } else if (D === 0) {
-    showResult('Нет действительных корней.')
+    showResult("Один действительный корень: <br><span class='formula'>x</span> =  " + (-b/ (2 * a)))
   } else {
     showResult("Два действительных корня: <br><span class='formula'>x<sub>1</sub></span> =  " + (-b - Math.sqrt(D)) / (2 * a) +
                 "<br><span class='formula'>x<sub>2</sub></span> =  " + (-b + Math.sqrt(D)) / (2 * a))
