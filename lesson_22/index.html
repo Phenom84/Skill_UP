@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Homework lesson 13</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend class="center">Вычисление дискриминанта квадратного уравнения</legend>
+        <div class="center_block formula">
+            <input class="coefficient" type="text" id="coefficient_a" name="coefficient_a" title="a coefficient" />
+            <span class="formula">x<sup>2</sup> +</span>
+            <input class="coefficient" type="text" id="coefficient_b" name="coefficient_b" title="b coefficient" />
+            <span class="formula">x +</span>
+            <input class="coefficient" type="text" id="coefficient_c" name="coefficient_c" title="c coefficient" />
+            <span class="formula">= 0</span>
+        </div>
+        <input class="center center_block" type="button" value="Решить уравнение" onclick="solveEquation()" />
+        <section id="result" class="center">
+            <p>Дискриминант = <span id="result_D"></span></p>
+            <p><span id="result_case"></span></p>
+        </section>
+    </fieldset>
+    <script defer src="js/main.js"></script>
+</body>
+
+</html>
